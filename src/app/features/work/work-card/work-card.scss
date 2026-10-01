@@ -1,0 +1,60 @@
+:host {
+  display: block;
+  margin-bottom: 0.75rem;
+  break-inside: avoid;
+}
+
+.card {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--surface);
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.7s ease;
+}
+
+.card__caption {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 65%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.card__subtitle {
+  margin-top: 0.125rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.card:hover {
+  .card__image {
+    transform: scale(1.04);
+  }
+
+  .card__caption {
+    opacity: 1;
+  }
+}
+
+// Touch devices have no hover, so keep captions visible there.
+@media (hover: none) {
+  .card__caption {
+    opacity: 1;
+  }
+}

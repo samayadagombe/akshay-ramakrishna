@@ -1,0 +1,10 @@
+<footer class="footer container">
+  <span class="footer__name font-display">{{ profile.name }}</span>
+
+  <span class="footer__legal">© {{ year }} · {{ profile.title }}</span>
+
+  <nav class="footer__links" aria-label="Footer">
+    <a [href]="profile.linkedinUrl" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a [href]="'mailto:' + profile.email">Email</a>
+  </nav>
+</footer>

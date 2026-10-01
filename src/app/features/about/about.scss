@@ -1,0 +1,111 @@
+:host {
+  display: block;
+}
+
+.about {
+  padding-block: 6rem;
+  border-top: 1px solid var(--border-subtle);
+
+  @media (min-width: 48rem) {
+    padding-block: 8rem;
+  }
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 4rem;
+
+  @media (min-width: 64rem) {
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+  }
+}
+
+.about__eyebrow {
+  margin-bottom: 2rem;
+}
+
+.about__title {
+  margin: 0 0 2rem;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+
+  @media (min-width: 48rem) {
+    font-size: 3rem;
+  }
+}
+
+.about__bio {
+  max-width: 24rem;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: var(--muted);
+}
+
+.about__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 5px 12px;
+    border: 1px solid var(--border-mid);
+    font-size: 0.75rem;
+    letter-spacing: 0.025em;
+    color: var(--muted);
+  }
+}
+
+.about__label {
+  margin: 0 0 2rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted-dim);
+}
+
+.about__jobs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.job__role {
+  font-size: 0.875rem;
+  color: var(--fg);
+}
+
+.job__company {
+  margin-top: 0.125rem !important;
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.job__period {
+  font-size: 0.75rem;
+  color: var(--muted-dim);
+}

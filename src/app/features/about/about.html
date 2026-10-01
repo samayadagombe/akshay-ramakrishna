@@ -1,0 +1,33 @@
+<section id="about" class="about container" aria-labelledby="about-title">
+  <div class="about__grid">
+    <div>
+      <p class="eyebrow about__eyebrow">About</p>
+      <h2 id="about-title" class="about__title font-display">{{ name }}</h2>
+      <p class="about__bio">
+        Senior UX/UI Designer with 9+ years turning complex enterprise products into experiences
+        that feel obvious.
+      </p>
+
+      <ul class="about__skills" aria-label="Skills">
+        @for (skill of skills; track skill) {
+          <li>{{ skill }}</li>
+        }
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="about__label">Experience</h3>
+      <ol class="about__jobs">
+        @for (job of experience; track job.company) {
+          <li class="job">
+            <div>
+              <p class="job__role">{{ job.role }}</p>
+              <p class="job__company">{{ job.company }}</p>
+            </div>
+            <span class="job__period">{{ job.period }}</span>
+          </li>
+        }
+      </ol>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+<figure class="card">
+  <img
+    class="card__image"
+    [src]="item().imageUrl"
+    [alt]="item().alt"
+    [attr.width]="item().width"
+    [attr.height]="item().height"
+    loading="lazy"
+    decoding="async"
+  />
+  <figcaption class="card__caption">
+    <span class="card__title">{{ item().title }}</span>
+    <span class="card__subtitle">{{ item().subtitle }}</span>
+  </figcaption>
+</figure>
