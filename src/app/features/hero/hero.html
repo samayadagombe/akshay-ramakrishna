@@ -1,24 +1,16 @@
 <section id="top" class="hero container" aria-labelledby="hero-title">
-  <div>
-    <p class="eyebrow hero__eyebrow">{{ profile.title }} · {{ profile.city }}</p>
-
-    <h1 id="hero-title" class="hero__title font-display">
-      Design<br />
-      <em>that feels</em><br />
-      effortless
-    </h1>
-
-    <div class="hero__intro">
-      <span class="hero__rule" aria-hidden="true"></span>
-      <p>
-        9+ years simplifying complex enterprise products — SaaS, cybersecurity, and branding — into
-        experiences people actually want to use.
-      </p>
+  <div class="hero__content">
+    <p class="eyebrow hero__eyebrow"> {{ profile.title }} · {{ profile.city }} </p>
+    <div class="hero__main">
+      <div class="hero__title-wrap">
+        <h1 id="hero-title" class="hero__title font-display">Design<br /><em>that feels</em><br />Effortless</h1>
+        <div class="hero__intro"> <span class="hero__rule" aria-hidden="true"></span>
+          <p> 9+ years simplifying complex enterprise products — SaaS, cybersecurity, and branding — into experiences
+            people actually want to use. </p>
+        </div>
+      </div>
+      <div class="hero__image"> <img src="/images/hero-image.png" alt="Designer portrait" width="600" height="600" />
+      </div>
     </div>
-  </div>
-
-  <div class="hero__scroll" aria-hidden="true">
-    <span>Scroll</span>
-    <i></i>
   </div>
 </section>

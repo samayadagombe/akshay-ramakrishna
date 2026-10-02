@@ -134,13 +134,20 @@ export const WORK: readonly WorkItem[] = [
   },
 ];
 
-export const SKILLS: readonly string[] = [
-  'UX Strategy',
-  'Design Systems',
-  'Figma',
-  'Prototyping',
-  'User Research',
-  'WCAG Accessibility',
+export const SKILLS: readonly string[] = [ 
+'UX Strategy', 
+'User Research',
+'Product Design', 
+'User Flows',
+'UI Design', 
+'Design Systems', 
+'Prototyping',  
+'Wireframing',   
+'WCAG Accessibility', 
+'SaaS Design', 
+'Figma', 
+'Adobe Creative Suite',
+'Branding', 
 ];
 
 export const EXPERIENCE: readonly ExperienceItem[] = [
