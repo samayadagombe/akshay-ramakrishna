@@ -75,11 +75,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g1',
-    imageUrl: unsplash(
-      'photo-1762365189058-7be5b07e038b',
-      700,
-      460
-    ),
+    imageUrl: 'images/GD1.jpg',
     width: 700,
     height: 460,
     alt: 'Two campaign posters on a concrete wall',
@@ -90,11 +86,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g2',
-    imageUrl: unsplash(
-      'photo-1605106325682-3482f7c1c9c4',
-      700,
-      1120
-    ),
+    imageUrl: 'images/GD2.jpg',
     width: 700,
     height: 1120,
     alt: 'Black and white brand illustration',
@@ -105,11 +97,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g3',
-    imageUrl: unsplash(
-      'photo-1644352739408-a191ed85e513',
-      700,
-      490
-    ),
+    imageUrl: 'images/GD3.jpg',
     width: 700,
     height: 490,
     alt: 'Branded brochure with tree motif on dark surface',
@@ -120,11 +108,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g4',
-    imageUrl: unsplash(
-      'photo-1774751006577-41afbfa6a5c6',
-      700,
-      460
-    ),
+    imageUrl: 'images/GD4.jpg',
     width: 700,
     height: 460,
     alt: 'Blue neon poster house projection on wall',
@@ -135,11 +119,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g5',
-    imageUrl: unsplash(
-      'photo-1555000001-2d6d7e9f553c',
-      700,
-      1050
-    ),
+    imageUrl: 'images/GD5.jpg',
     width: 700,
     height: 1050,
     alt: 'Red brand manual book on dark surface',
@@ -150,7 +130,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g6',
-    imageUrl: 'images/graphic-design-6.png',
+    imageUrl: 'images/GD6.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 6',
@@ -161,7 +141,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g7',
-    imageUrl: 'images/graphic-design-7.png',
+    imageUrl: 'images/GD7.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 7',
@@ -172,7 +152,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g8',
-    imageUrl: 'images/graphic-design-8.png',
+    imageUrl: 'images/GD8.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 8',
@@ -183,7 +163,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g9',
-    imageUrl: 'images/graphic-design-9.png',
+    imageUrl: 'images/GD9.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 9',
@@ -194,7 +174,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g10',
-    imageUrl: 'images/graphic-design-10.png',
+    imageUrl: 'images/GD10.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 10',
@@ -205,7 +185,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g11',
-    imageUrl: 'images/graphic-design-11.png',
+    imageUrl: 'images/GD11.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 11',
@@ -216,7 +196,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g12',
-    imageUrl: 'images/graphic-design-12.png',
+    imageUrl: 'images/GD12.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 12',
@@ -227,7 +207,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g13',
-    imageUrl: 'images/graphic-design-13.png',
+    imageUrl: 'images/GD13.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 13',
@@ -238,7 +218,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g14',
-    imageUrl: 'images/graphic-design-14.png',
+    imageUrl: 'images/GD14.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 14',
@@ -249,7 +229,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g15',
-    imageUrl: 'images/graphic-design-15.png',
+    imageUrl: 'images/GD15.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 15',
@@ -260,7 +240,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g16',
-    imageUrl: 'images/graphic-design-16.png',
+    imageUrl: 'images/GD16.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 16',
@@ -271,7 +251,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g17',
-    imageUrl: 'images/graphic-design-17.png',
+    imageUrl: 'images/GD17.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 17',
@@ -282,7 +262,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g18',
-    imageUrl: 'images/graphic-design-18.png',
+    imageUrl: 'images/GD18.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 18',
@@ -293,7 +273,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g19',
-    imageUrl: 'images/graphic-design-19.png',
+    imageUrl: 'images/GD19.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 19',
@@ -304,7 +284,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g20',
-    imageUrl: 'images/graphic-design-20.png',
+    imageUrl: 'images/GD20.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 20',
@@ -315,7 +295,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g21',
-    imageUrl: 'images/graphic-design-21.png',
+    imageUrl: 'images/GD21.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 21',
@@ -326,7 +306,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g22',
-    imageUrl: 'images/graphic-design-22.png',
+    imageUrl: 'images/GD22.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 22',
@@ -337,7 +317,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g23',
-    imageUrl: 'images/graphic-design-23.png',
+    imageUrl: 'images/GD23.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 23',
@@ -348,7 +328,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g24',
-    imageUrl: 'images/graphic-design-24.png',
+    imageUrl: 'images/GD24.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 24',
@@ -359,7 +339,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g25',
-    imageUrl: 'images/graphic-design-25.png',
+    imageUrl: 'images/GD25.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 25',
@@ -370,7 +350,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g26',
-    imageUrl: 'images/graphic-design-26.png',
+    imageUrl: 'images/GD26.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 26',
@@ -381,7 +361,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'g27',
-    imageUrl: 'images/graphic-design-27.png',
+    imageUrl: 'images/GD27.jpg',
     width: 700,
     height: 900,
     alt: 'Graphic design campaign artwork 27',
