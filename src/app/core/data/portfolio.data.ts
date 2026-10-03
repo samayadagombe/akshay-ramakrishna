@@ -78,7 +78,7 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD1.jpg',
     width: 700,
     height: 460,
-    alt: 'Two campaign posters on a concrete wall',
+    alt: 'campaign posters',
     category: 'graphic',
     title: 'Campaign Poster Series',
     subtitle: 'Aspiration Advertising · Art Direction',
@@ -89,10 +89,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD2.jpg',
     width: 700,
     height: 1120,
-    alt: 'Black and white brand illustration',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Brand Identity System',
-    subtitle: 'Visual Identity · Illustration',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -100,10 +100,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD3.jpg',
     width: 700,
     height: 490,
-    alt: 'Branded brochure with tree motif on dark surface',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Marketing Collateral Suite',
-    subtitle: 'Print · Digital · Aspiration Advertising',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -111,10 +111,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD4.jpg',
     width: 700,
     height: 460,
-    alt: 'Blue neon poster house projection on wall',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Event Branding — Typography',
-    subtitle: 'Experiential · Signage',
+   title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -122,10 +122,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD5.jpg',
     width: 700,
     height: 1050,
-    alt: 'Red brand manual book on dark surface',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Brand Guidelines Manual',
-    subtitle: 'Campfire Lifestyle · Style Guide',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -133,10 +133,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD6.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 6',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 06',
-    subtitle: 'Graphic Design · Campaign',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -144,10 +144,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD7.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 7',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 07',
-    subtitle: 'Graphic Design · Campaign',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -155,10 +155,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD8.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 8',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 08',
-    subtitle: 'Graphic Design · Branding',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -166,10 +166,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD9.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 9',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 09',
-    subtitle: 'Graphic Design · Branding',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -177,10 +177,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD10.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 10',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 10',
-    subtitle: 'Graphic Design · Art Direction',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -188,10 +188,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD11.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 11',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 11',
-    subtitle: 'Graphic Design · Art Direction',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -199,10 +199,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD12.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 12',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 12',
-    subtitle: 'Graphic Design · Editorial',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -210,10 +210,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD13.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 13',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 13',
-    subtitle: 'Graphic Design · Editorial',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -221,10 +221,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD14.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 14',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 14',
-    subtitle: 'Graphic Design · Print',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -232,10 +232,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD15.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 15',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 15',
-    subtitle: 'Graphic Design · Print',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -243,10 +243,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD16.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 16',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 16',
-    subtitle: 'Graphic Design · Digital',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -254,10 +254,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD17.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 17',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 17',
-    subtitle: 'Graphic Design · Digital',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -265,10 +265,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD18.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 18',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 18',
-    subtitle: 'Graphic Design · Identity',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -276,10 +276,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD19.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 19',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 19',
-    subtitle: 'Graphic Design · Identity',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -287,10 +287,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD20.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 20',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 20',
-    subtitle: 'Graphic Design · Advertising',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -298,10 +298,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD21.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 21',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 21',
-    subtitle: 'Graphic Design · Advertising',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -309,10 +309,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD22.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 22',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 22',
-    subtitle: 'Graphic Design · Social Media',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -320,10 +320,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD23.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 23',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 23',
-    subtitle: 'Graphic Design · Social Media',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -331,10 +331,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD24.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 24',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 24',
-    subtitle: 'Graphic Design · Packaging',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -342,10 +342,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD25.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 25',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 25',
-    subtitle: 'Graphic Design · Packaging',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -353,10 +353,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD26.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 26',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 26',
-    subtitle: 'Graphic Design · Visual Communication',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 
   {
@@ -364,10 +364,10 @@ export const WORK: readonly WorkItem[] = [
     imageUrl: 'images/GD27.jpg',
     width: 700,
     height: 900,
-    alt: 'Graphic design campaign artwork 27',
+    alt: 'campaign posters',
     category: 'graphic',
-    title: 'Campaign Artwork 27',
-    subtitle: 'Graphic Design · Visual Communication',
+    title: 'Campaign Poster Series',
+    subtitle: 'Aspiration Advertising · Art Direction',
   },
 ];
 
