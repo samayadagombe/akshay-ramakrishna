@@ -400,7 +400,11 @@ export const WORK: readonly WorkItem[] = [
  * ExperienceItem elsewhere in the application.
  */
 
-export const EXPERIENCE: readonly ExperienceItem[] = [];
+export const EXPERIENCE: readonly ExperienceItem[] = [
+  { role: 'Senior UX Designer', company: 'Subex', period: '2020 — Present' },
+  { role: 'UI/UX Designer', company: 'Himpact', period: '2019 — 2020' },
+  { role: 'Graphic Designer', company: 'Campfire & Aspiration', period: '2015 — 2019' },
+];
 
 /**
  * ============================================================
@@ -412,13 +416,34 @@ export const EXPERIENCE: readonly ExperienceItem[] = [];
  */
 
 export const CONTACT: readonly ContactItem[] = [];
-export const CONTACT_ITEMS: readonly ContactItem[] = [];
-export const PROFILE: ProfileItem = {
-  name: 'Akshay',
-  email: 'your-email@example.com',
-  role: 'Senior UX/UI Designer',
-  location: 'Bengaluru, India',
+export const PROFILE = {
+  name: 'Akshay R',
+  title: 'Senior UX/UI Designer',
   city: 'Bengaluru',
-  title: 'Senior UX/UI Designer'
-};
-export const SKILLS: readonly ContactItem[] = [];
+  email: 'eminem21089@gmail.com',
+  linkedinUrl: 'https://www.linkedin.com/in/akshayramakrishna',
+} as const;
+
+export const CONTACT_ITEMS: readonly ContactItem[] = [
+  { label: 'Email', value: PROFILE.email, href: `mailto:${PROFILE.email}` },
+  { label: 'Phone', value: '+91 78921 96085', href: 'tel:+917892196085' },
+   { label: 'LinkedIn', value: 'linkedin.com/in/akshayramakrishna', href: PROFILE.linkedinUrl},
+  { label: 'Location', value: 'Bengaluru, India', href: null },
+];
+
+
+export const SKILLS: readonly string[] = [ 
+'UX Strategy', 
+'User Research',
+'Product Design', 
+'User Flows',
+'UI Design', 
+'Design Systems', 
+'Prototyping',  
+'Wireframing',   
+'WCAG Accessibility', 
+'SaaS Design', 
+'Figma', 
+'Adobe Creative Suite',
+'Branding', 
+];
