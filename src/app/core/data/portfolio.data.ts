@@ -60,7 +60,7 @@ export const WORK: readonly WorkItem[] = [
 
   {
     id: 'u2',
-    imageUrl: 'images/GD1.jpg',
+    imageUrl: 'images/ux_case_study2.png',
     width: 1400,
     height: 1000,
     alt: 'Product user experience and interface design case study',
