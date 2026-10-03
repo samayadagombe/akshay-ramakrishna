@@ -29,3 +29,12 @@ export interface ExperienceItem {
   company: string;
   period: string;
 }
+
+export interface ProfileItem {
+  name: string;
+  email: string;
+  role: string;
+  location: string;
+  city: string;
+  title: string;
+}

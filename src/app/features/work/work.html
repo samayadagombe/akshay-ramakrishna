@@ -1,13 +1,37 @@
-<section id="work" class="work container" aria-labelledby="work-title">
+<section
+  id="work"
+  class="work container"
+  aria-labelledby="work-title"
+>
+  <!-- Section Header -->
   <div class="work__header">
-    <h2 id="work-title" class="work__title font-display">Selected Work</h2>
+    <div class="work__heading">
+      <span class="work__eyebrow">Portfolio</span>
 
-    <div class="work__filter" role="group" aria-label="Filter work by category">
+      <h2
+        id="work-title"
+        class="work__title font-display"
+      >
+        Selected Work
+      </h2>
+    </div>
+
+    <!-- Category Filters -->
+    <div
+      class="work__filter"
+      role="group"
+      aria-label="Filter work by category"
+    >
       @for (category of categories; track category.id) {
         <button
           type="button"
           class="work__filter-btn"
-          [attr.aria-pressed]="activeCategory() === category.id"
+          [class.work__filter-btn--active]="
+            activeCategory() === category.id
+          "
+          [attr.aria-pressed]="
+            activeCategory() === category.id
+          "
           (click)="select(category.id)"
         >
           {{ category.label }}
@@ -16,9 +40,95 @@
     </div>
   </div>
 
-  <div class="work__grid">
+  <!-- Portfolio Grid -->
+  <div
+    class="work__grid"
+    [attr.data-category]="activeCategory()"
+  >
     @for (item of visibleItems(); track item.id) {
-      <app-work-card [item]="item" />
+      <button
+        type="button"
+        class="work__card"
+        [attr.aria-label]="'View ' + item.title"
+        (click)="openPreview(item)"
+      >
+        <div class="work__card-image-wrapper">
+          <img
+            class="work__card-image"
+            [src]="item.imageUrl"
+            [alt]="item.alt"
+            loading="lazy"
+          />
+
+          <div
+            class="work__card-overlay"
+            aria-hidden="true"
+          >
+            <span class="work__card-view">
+              View Project
+              <span class="work__card-arrow">↗</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="work__card-content">
+          <h3 class="work__card-title">
+            {{ item.title }}
+          </h3>
+
+          <p class="work__card-subtitle">
+            {{ item.subtitle }}
+          </p>
+        </div>
+      </button>
     }
   </div>
+
+  <!-- Empty State -->
+  @if (visibleItems().length === 0) {
+    <div class="work__empty">
+      <p>No projects found in this category.</p>
+    </div>
+  }
+
+  <!-- Full-Screen Image Preview -->
+  @if (selectedItem(); as item) {
+    <div
+      class="work__lightbox"
+      role="dialog"
+      aria-modal="true"
+      [attr.aria-label]="'Preview of ' + item.title"
+      tabindex="-1"
+      (click)="closePreview()"
+    >
+      <!-- Close Button -->
+      <button
+        type="button"
+        class="work__lightbox-close"
+        aria-label="Close image preview"
+        (click)="closePreview()"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+      <!-- Preview Content -->
+      <div
+        class="work__lightbox-content"
+        (click)="$event.stopPropagation()"
+      >
+        <div class="work__lightbox-image-wrapper">
+          <img
+            class="work__lightbox-image"
+            [src]="item.imageUrl"
+            [alt]="item.alt"
+          />
+        </div>
+
+        <div class="work__lightbox-caption">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.subtitle }}</p>
+        </div>
+      </div>
+    </div>
+  }
 </section>

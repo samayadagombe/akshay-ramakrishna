@@ -1,5 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { CONTACT_ITEMS, PROFILE } from '../../core/data/portfolio.data';
+
+import {
+  CONTACT_ITEMS,
+  PROFILE,
+} from '../../core/data/portfolio.data';
 
 @Component({
   selector: 'app-contact',
